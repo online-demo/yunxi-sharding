@@ -14,10 +14,10 @@
     <!--</dataSource>-->
     <!--</environment>-->
     <!--</environments>-->
-    <typeAliases>
-        <package name="com.example.demo.entity"/>
-    </typeAliases>
-    <mappers>
-        <mapper resource="mapper/UserInfoMapper.xml"/>
-    </mappers>
+    <!--<typeAliases>-->
+        <!--<package name="com.example.demo.entity"/>-->
+    <!--</typeAliases>-->
+    <!--<mappers>-->
+        <!--<mapper resource="mapper/UserInfoMapper.xml"/>-->
+    <!--</mappers>-->
 </configuration>
