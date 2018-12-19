@@ -34,12 +34,12 @@ public class DemoApplicationTests {
 			userInfo.setPassword("pass" + i);
 			userInfo.setUserName("name" + i);
 			//强制修改路由规则
-//			if(i == 3){
-//				HintManagerHolder.clear();
-//				HintManager hintManager = HintManager.getInstance();
-//				hintManager.addDatabaseShardingValue("user_info", "user_id", 2L);
-//				hintManager.addTableShardingValue("user_info", "user_id", 2L);
-//			}
+			if(i == 3){
+				HintManagerHolder.clear();
+				HintManager hintManager = HintManager.getInstance();
+				hintManager.addDatabaseShardingValue("user_info", "user_id", 2L);
+				hintManager.addTableShardingValue("user_info", "user_id", 2L);
+			}
 			userService.saveUser(userInfo);
 		}
 	}
