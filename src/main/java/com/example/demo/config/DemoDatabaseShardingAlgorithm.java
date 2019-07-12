@@ -6,7 +6,9 @@ import io.shardingjdbc.core.api.algorithm.sharding.standard.PreciseShardingAlgor
 import java.util.Collection;
 
 /**
- * 数据库分片的计算逻辑
+ * @Author: 无双老师【云析学院】
+ * @Date: 2019-07-12 21:21
+ * @Description: 数据库分片的计算逻辑
  */
 public class DemoDatabaseShardingAlgorithm implements PreciseShardingAlgorithm<Long> {
     @Override

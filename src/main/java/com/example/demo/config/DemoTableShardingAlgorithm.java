@@ -6,7 +6,9 @@ import io.shardingjdbc.core.api.algorithm.sharding.standard.PreciseShardingAlgor
 import java.util.Collection;
 
 /**
- * 表的分片规则
+ * @Author: 无双老师【云析学院】
+ * @Date: 2019-07-12 21:21
+ * @Description: 表的分片规则
  */
 public class DemoTableShardingAlgorithm implements PreciseShardingAlgorithm<Long> {
     @Override

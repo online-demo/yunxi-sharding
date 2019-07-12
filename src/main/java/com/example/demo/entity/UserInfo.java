@@ -1,9 +1,12 @@
 package com.example.demo.entity;
 
+
 import lombok.Data;
 
 /**
- * 用户信息
+ * @Author: 无双老师【云析学院】
+ * @Date: 2019-07-12 21:21
+ * @Description:
  */
 @Data
 public class UserInfo {
@@ -26,4 +29,5 @@ public class UserInfo {
      * 用户密码
      */
     private String password;
+
 }
